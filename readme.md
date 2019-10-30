@@ -12,7 +12,7 @@ The Add-GitIgnoreTemplate allows the insertion of git .ignore templates in-line 
 Create a new .gitignore using GitHub templates
 
 ```powershell
-.\Get-GitHubGitIngoreTemplate.ps1 -TemplateName "Node.gitignore", "VisualStudioCode.gitignore", "Windows.gitignore" -OutPath "D:\GitHub_gitignore_Template" | .\New-GitIgnore.ps1 -OutPath "D:\GitHub_gitignore_Template"
+.\Get-GitHubGitIngoreTemplate.ps1 -TemplateName "Node.gitignore", "VisualStudioCode.gitignore", "Linux.gitignore", "macOS.gitignore", "Windows.gitignore" -OutPath "D:\GitHub_gitignore_Template" | .\New-GitIgnore.ps1 -OutPath "D:\GitHub_gitignore_Template"
 ```
 
 ## Example 2
